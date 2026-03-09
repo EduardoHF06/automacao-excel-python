@@ -1,4 +1,4 @@
-Automação de Relatórios Consolidados com Python
+## Automação de Relatórios Consolidados com Python
 
 ## O Problema de Negócio
 Rotinas operacionais e de suporte frequentemente exigem que analistas gastem horas copiando e colando informações de dezenas de planilhas diferentes (Excel/CSV) para montar uma única base de dados. Isso gera perda de produtividade e margem para erro humano.
@@ -17,7 +17,7 @@ Em vez de realizar o trabalho manualmente, o script executa o seguinte pipeline:
 3. **Cálculo de KPI:** Aplica funções de agrupamento (`groupby`) para calcular automaticamente o faturamento total gerado por filial.
 4. **Exportação:** Gera automaticamente os arquivos finais limpos (`Base_Consolidada_Final.csv` e `KPI_Resumo_Gerencial.csv`), prontos para serem apresentados à diretoria ou importados no Power BI/Excel.
 
-## mpacto do Projeto
+## Impacto do Projeto
 O que antes levaria horas de trabalho braçal ao longo de um mês, agora é executado em menos de **1 segundo**. Este case demonstra a aplicação direta da programação para otimizar fluxos de trabalho do dia a dia corporativo, liberando a equipe de suporte e análise para focar em tarefas mais estratégicas.
 
 ## Como testar o script
